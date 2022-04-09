@@ -1,0 +1,42 @@
+Curso introducao ao Git e GitHub
+
+Link com todos os comandos do GIT 
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
+
+abaixo alguns importantes do curso
+
+Repositório Local
+Criar novo repositório
+git init
+Verificar estado dos arquivos/diretórios
+git status
+Adicionar todos os arquivos/diretórios
+git add . ou git add *
+clonar repositorio
+git clone (link do reposito no github) - sem parentese
+
+
+commit
+Comitar um arquivo
+git commit meu_arquivo.txt
+Comitar informando mensagem
+git commit meuarquivo.txt -m "minha mensagem de commit"
+
+
+Enviar arquivos/diretórios para o repositório remoto
+O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+
+git push -u origin master
+Os demais pushes não precisam dessa informação
+
+git push
+Atualizar repositório local de acordo com o repositório remoto
+
+
+git config
+Sua Identidade - melhor colcoar igual no git e no github pra ele puxar automatico
+git config --global user.name "xxx"
+git config --global user.email xxx@gmail.com
+
+git rm
+Removendo Arquivos
